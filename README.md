@@ -1,5 +1,7 @@
 # Academia CV
 
+![Academia CV Logo](/example/cv.png)
+
 A **type-safe, React + TypeScript** résumé / curriculum-vitae generator.
 
 *   Declarative **JSON** data model (`src/data.json`).
