@@ -1,0 +1,32 @@
+@import "./assets/fonts/computer-modern/cmsans.css";
+@import "./assets/fonts/computer-modern/cmserif.css";
+
+@import "tailwindcss";
+
+@theme {
+    --font-sans: "Computer Modern Sans", "Arial", "sans-serif";
+    --font-serif: "Computer Modern Serif";
+    --text-sm: 0.875rem;
+    --text-xs: 0.75rem;
+    --text-xxs: 0.625rem;
+}
+
+animation: var(--animate-spin); /* spin 1s linear infinite */
+
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+button {
+    cursor: pointer;
+}
+
+body {
+    background: #998f8f;
+}
+
+#printableArea {
+    background: white;
+}

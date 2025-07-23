@@ -1,0 +1,145 @@
+{
+  "documentName": "John-Doe-CV",
+  "role": "Full-Stack Software Engineer",
+  "personalInformation": {
+    "name": "John Doe",
+    "address": {
+      "name": "Remote, Earth",
+      "href": "https://www.openstreetmap.org"
+    },
+    "email": "john.doe@example.com",
+    "githubUsername": "johndoe",
+    "website": "johndoe.dev",
+    "linkedin": "linkedin.com/in/johndoe"
+  },
+
+  "overview": {
+    "description": "Polyglot developer with a passion for building robust web platforms and mentoring engineering teams."
+  },
+
+  "summary": {
+    "disabled": false,
+    "description": "I am a full-stack engineer with 6+ years of experience delivering cloud-native applications. My expertise spans React, TypeScript, .NET, and AWS. I enjoy translating business requirements into elegant, maintainable code and thrive in agile, cross-functional teams."
+  },
+
+  "education": [
+    {
+      "institution": {
+        "name": "Example University",
+        "href": "https://www.example.edu"
+      },
+      "course": "Computer Science",
+      "grade": "First Class",
+      "year": "Sep 2014 — Jun 2018"
+    },
+    {
+      "institution": {
+        "name": "Open Online Academy",
+        "href": "https://www.open-online.academy"
+      },
+      "program": "Certificate in Cloud Architecture",
+      "year": "2020"
+    }
+  ],
+
+  "experience": [
+    {
+      "company": {
+        "name": "TechCorp Ltd.",
+        "href": "https://www.techcorp.com"
+      },
+      "location": { "name": "Remote" },
+      "role": "Senior Software Engineer",
+      "start_date": "Jan 2022",
+      "end_date": "Present",
+      "points": [
+        "Led a team of four engineers to deliver a multi-tenant SaaS platform on AWS.",
+        "Designed event-driven micro-services using .NET 6, DynamoDB, and SNS/SQS.",
+        "Introduced automated accessibility testing, increasing WCAG compliance by 25 %."
+      ]
+    },
+    {
+      "company": { "name": "Innovatech", "href": "https://www.innovatech.io" },
+      "location": { "name": "Berlin, Germany" },
+      "role": "Software Engineer",
+      "start_date": "Jul 2018",
+      "end_date": "Dec 2021",
+      "points": [
+        "Built internal design-system components in React + TypeScript used across six products.",
+        "Authored CI/CD pipelines (GitHub Actions, Docker, Kubernetes) cutting release time by 40 %."
+      ]
+    }
+  ],
+
+  "custom": [
+    {
+      "name": "Open Source",
+      "items": [
+        {
+          "title": { "name": "TaskMaster", "date": "2023" },
+          "href": "https://github.com/johndoe/taskmaster",
+          "description": "Kanban-style task management web app focused on keyboard navigation.",
+          "technologies": ["React", "Vite", "Tailwind CSS", "Firebase"]
+        },
+        {
+          "title": { "name": "Pixly", "date": "2022" },
+          "description": [
+            "CLI tool that batch-converts and optimises images.",
+            "Achieved 60 % average size reduction without visible quality loss."
+          ],
+          "technologies": ["Go", "PNGQuant", "GitHub Actions CI/CD"]
+        }
+      ]
+    },
+    {
+      "name": "Hackathons",
+      "items": [
+        {
+          "title": {
+            "name": "GreenRoute",
+            "extraNote": "24-hour hack",
+            "date": "2021"
+          },
+          "href": "https://devpost.com/software/greenroute",
+          "description": "Route-planning API that minimises carbon emissions by factoring live traffic and elevation.",
+          "technologies": ["Python", "FastAPI", "PostGIS", "Docker"]
+        }
+      ]
+    }
+  ],
+
+  "achievements": [
+    {
+      "name": "AWS Certified Solutions Architect — Associate",
+      "type": "Certification"
+    },
+    { "name": "Winner — Global Hackathon 2021", "type": "Competition" },
+    { "name": "Speaker — JSConf EU", "type": "Conference" }
+  ],
+
+  "skills": {
+    "disabled": false,
+    "Toolsets": {
+      "Proficient": [
+        ".NET 6/7",
+        "TypeScript",
+        "React",
+        "Node.js",
+        "AWS",
+        "Docker",
+        "PostgreSQL"
+      ],
+      "Familiar": ["Go", "GraphQL", "Kubernetes"],
+      "Prior Experience": ["Java", "Python"]
+    },
+    "Industry Knowledge": {
+      "Proficient": [
+        "Software Architecture",
+        "API Design",
+        "Agile Methodologies"
+      ],
+      "Familiar": ["DevOps Culture", "CI/CD", "UX Principles"],
+      "Prior Experience": ["High-Performance Computing"]
+    }
+  }
+}
