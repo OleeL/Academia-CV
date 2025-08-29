@@ -15,10 +15,10 @@ const cvData = data as CVDocument;
 const overview = cvData.overview;
 const summary = cvData?.summary;
 const achievements = cvData?.achievements?.filter((x) => !x.disabled);
-const education = cvData?.education;
+const education = cvData?.education?.filter((x) => !x.disabled);
 const experience = cvData?.experience;
 const skills = cvData?.skills;
-const custom = cvData?.custom;
+const custom = cvData?.custom?.filter((x) => !x.disabled);
 
 const CVTemplate = () => {
   return (
